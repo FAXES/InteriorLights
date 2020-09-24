@@ -20,7 +20,7 @@ function toggleInteriorLights(ped, veh)
             SetVehicleInteriorlight(veh, true)
         end
     else
-        TriggerEvent("chatMessage", "^1^*You are not in a vehicle.")
+        TriggerEvent("chat:addMessage", "^1^*You are not in a vehicle.")
     end
 end
 
